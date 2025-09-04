@@ -22,6 +22,7 @@
   "type": "commonjs",
   "dependencies": {
     "@tauri-apps/api": "^2.8.0",
+    "@tauri-apps/plugin-dialog": "^2.4.0",
     "svelte": "^5.38.6"
   },
   "devDependencies": {
