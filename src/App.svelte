@@ -2,9 +2,9 @@
   import { invoke } from "@tauri-apps/api/core";
   import { open } from "@tauri-apps/plugin-dialog";
 
-  let name = "";
-  let greeting = "";
-  let selectedFile = "";
+  let name = $state("");
+  let greeting = $state("");
+  let selectedFile = $state("");
 
   async function greet() {
     greeting = await invoke("greet", { name });
